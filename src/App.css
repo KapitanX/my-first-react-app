@@ -1,0 +1,51 @@
+html {
+  font-size: 0.86em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #006699;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Luisito {
+  max-width: 600px;
+  border: 6px solid #006699;
+}
+
+.Avatar {
+  margin: 20px 0;
+  border-radius: 50%;
+}
+.UserInfo-name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.Comment-date {
+  color: #999;
+}
+
+.Comment-date:before,
+.Comment-date:after {
+  content: "-";
+  padding: 0 5px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
